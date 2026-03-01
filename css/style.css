@@ -3053,9 +3053,7 @@ color:#BFBFBF;
     position: relative;
   }
 
-  .section_hero {
-    min-height: 100vh;
-  }
+  
 
   .hero_padding {
     padding-top: 7rem;
@@ -3162,6 +3160,10 @@ color:#BFBFBF;
 
   .products_text.left, .heading-7 {
     max-width: 100%;
+  }
+
+  .hero_short-text{
+    display: none;
   }
 }
 
