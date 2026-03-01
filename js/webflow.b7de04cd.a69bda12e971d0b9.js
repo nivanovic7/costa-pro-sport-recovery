@@ -1718,7 +1718,7 @@ Webflow.define('brand', module.exports = function($) {
         if (/\.webflow\.io$/i.test(publishedDomain) && location.hostname !== publishedDomain) {
             shouldBrand = true;
         }
-        if (shouldBrand && !isPhantom) {
+        if (shouldBrand && false) {
             brandElement = brandElement || createBadge();
             ensureBrand();
             setTimeout(ensureBrand, 500);
