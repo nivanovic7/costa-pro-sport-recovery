@@ -3163,6 +3163,11 @@ color:#BFBFBF;
   .hero_short-text{
     display: none;
   }
+
+  .footer_logo-wrap img{
+
+    margin: auto;
+  }
 }
 
 #w-node-_1a424550-21ac-d39d-8bd0-84bfeb604a19-8e4d8ce0 {
