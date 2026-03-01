@@ -3152,6 +3152,14 @@ color:#BFBFBF;
     background-size: cover;
   }
 
+  .marquee-horizontal{
+    height: 50px;
+  }
+
+  .marquee-text{
+    font-size: 14px;
+  }
+
   .about_image-wrap {
     min-width: 0;
   }
