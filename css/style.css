@@ -2228,9 +2228,22 @@ img {
 }
 
 .section_hero {
-  background-image: url("../images/6903439557f1d6d11d11d04a_e3da945897857ad3d7304b26f3e9189c_costa%20bg%20image-min%20%281%29.webp");
+  background-image: url("../images/proizvodi/hero\ 1.png");
   background-position: 50%;
   background-size: cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* overlay color */
+  z-index: 1;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
 }
 
 .hero_padding {
@@ -3146,11 +3159,7 @@ color:#BFBFBF;
     line-height: 135%;
   }
 
-  .section_hero {
-    background-image: url("../images/6991bbb4152ed21e95a78436_632637cfe09c8cfefe1af0e52802c94f_costa%20hero%20mobile%20%281%29.webp");
-    background-position: 50%;
-    background-size: cover;
-  }
+  
 
   .marquee-horizontal{
     height: 50px;
