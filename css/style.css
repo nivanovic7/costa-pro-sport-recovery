@@ -3149,6 +3149,11 @@ color:#BFBFBF;
 }
 
 @media screen and (max-width: 479px) {
+
+  .nav_list .button{
+    display: none;
+  }
+  
   h1 {
     font-size: 36px;
     line-height: 110%;
